@@ -1,0 +1,9 @@
+{
+  "name": "ReLoop AI – Recycle Smarter with AI",
+  "description": "A premium AI-powered recycling platform for smarter electronics disposal, exchange, and marketplace.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
