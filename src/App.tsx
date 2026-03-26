@@ -1049,16 +1049,16 @@ const AIDetector = () => {
   );
 };
 const PRODUCTS = [
-  { id: '1', name: 'iPhone 15 Pro', price: '$999', rating: 4.9, condition: 'Refurbished - Like New', category: 'Mobiles', image: 'https://images.unsplash.com/photo-1696446701796-da61225697cc?auto=format&fit=crop&q=80&w=1000', specs: { storage: '256GB', battery: '100%', color: 'Natural Titanium' } },
-  { id: '2', name: 'MacBook Pro M3', price: '$1599', rating: 4.9, condition: 'Refurbished - Excellent', category: 'Laptops', image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=1000', specs: { storage: '1TB', ram: '32GB', color: 'Space Black' } },
-  { id: '3', name: 'AirPods Max', price: '$449', rating: 4.8, condition: 'New - Open Box', category: 'Accessories', image: 'https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&q=80&w=1000', specs: { noise_cancelling: 'Yes', battery: '20h', color: 'Sky Blue' } },
-  { id: '4', name: 'iPad Air 5', price: '$499', rating: 4.7, condition: 'Refurbished - Good', category: 'Laptops', image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=1000', specs: { storage: '64GB', chip: 'M1', color: 'Purple' } },
-  { id: '5', name: 'Samsung S24 Ultra', price: '$1049', rating: 4.8, condition: 'Refurbished - Like New', category: 'Mobiles', image: 'https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&q=80&w=1000', specs: { storage: '512GB', zoom: '100x', color: 'Titanium Gray' } },
-  { id: '6', name: 'Bose QC Ultra', price: '$349', rating: 4.9, condition: 'New - Sealed', category: 'Accessories', image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=1000', specs: { battery: '24h', noise_cancelling: 'Immersive Audio', color: 'Black' } },
-  { id: '7', name: 'Apple Watch S9', price: '$329', rating: 4.8, condition: 'Refurbished - Like New', category: 'Accessories', image: 'https://images.unsplash.com/photo-1664447972810-2c0956715558?auto=format&fit=crop&q=80&w=1000', specs: { case: 'Aluminum', battery: '18h', color: 'Midnight' } },
-  { id: '8', name: 'Razer Blade 16', price: '$2499', rating: 4.7, condition: 'Refurbished - Excellent', category: 'Laptops', image: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&q=80&w=1000', specs: { gpu: 'RTX 4080', ram: '32GB', display: 'Mini-LED' } },
-  { id: '9', name: 'Pixel 8 Pro', price: '$749', rating: 4.6, condition: 'Refurbished - Good', category: 'Mobiles', image: 'https://images.unsplash.com/photo-1665686306574-1ace09918530?auto=format&fit=crop&q=80&w=1000', specs: { storage: '128GB', camera: 'Pro Triple', color: 'Bay' } },
-];
+  { id: '1', name: 'iPhone 15 Pro', price: '$999', rating: 4.9, condition: 'Refurbished - Like New', category: 'Mobiles', image: '/iphone.jpg', specs: { storage: '256GB', battery: '100%', color: 'Natural Titanium' } },
+  { id: '2', name: 'MacBook Pro M3', price: '$1599', rating: 4.9, condition: 'Refurbished - Excellent', category: 'Laptops', image: '/macbook.jpg', specs: { storage: '1TB', ram: '32GB', color: 'Space Black' } },
+  { id: '3', name: 'AirPods Max', price: '$449', rating: 4.8, condition: 'New - Open Box', category: 'Accessories', image: '/airpods.jpg', specs: { noise_cancelling: 'Yes', battery: '20h', color: 'Sky Blue' } },
+  { id: '4', name: 'iPad Air 5', price: '$499', rating: 4.7, condition: 'Refurbished - Good', category: 'Laptops', image: '/ipad.jpg', specs: { storage: '64GB', chip: 'M1', color: 'Purple' } },
+  { id: '5', name: 'Samsung S24 Ultra', price: '$1049', rating: 4.8, condition: 'Refurbished - Like New', category: 'Mobiles', image: '/samsung.jpg', specs: { storage: '512GB', zoom: '100x', color: 'Titanium Gray' } },
+  { id: '6', name: 'Bose QC Ultra', price: '$349', rating: 4.9, condition: 'New - Sealed', category: 'Accessories', image: '/bose.jpg', specs: { battery: '24h', noise_cancelling: 'Immersive Audio', color: 'Black' } },
+  { id: '7', name: 'Apple Watch S9', price: '$329', rating: 4.8, condition: 'Refurbished - Like New', category: 'Accessories', image: '/applewatch.jpg', specs: { case: 'Aluminum', battery: '18h', color: 'Midnight' } },
+  { id: '8', name: 'Razer Blade 16', price: '$2499', rating: 4.7, condition: 'Refurbished - Excellent', category: 'Laptops', image: '/razer.jpg', specs: { gpu: 'RTX 4080', ram: '32GB', display: 'Mini-LED' } },
+  { id: '9', name: 'Pixel 8 Pro', price: '$749', rating: 4.6, condition: 'Refurbished - Good', category: 'Mobiles', image: '/pixel.jpg', specs: { storage: '128GB', camera: 'Pro Triple', color: 'Bay' } },
+  ];
 
 const Marketplace = () => {
   const [activeCategory, setActiveCategory] = useState('All');
